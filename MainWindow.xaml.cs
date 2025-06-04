@@ -38,7 +38,10 @@ namespace MatchGame
                 "🐟", "🐟",
                 "🐁", "🐁",
                 "🐬", "🐬",
+
             };
+
+            Console.WriteLine("teste");
 
 
         }
