@@ -41,7 +41,15 @@ namespace MatchGame
 
             };
 
-            Console.WriteLine("aaaaaaaaaa");
+            Random random = new Random();
+
+            foreach (TextBlock textBlock in mainGrid.Children.OfType<TextBlock>())
+            {
+                int index = random.Next(animalEmoji.Count);
+                string nextEmoji = animalEmoji[index];
+                textBlock.Text = nextEmoji;
+                animalEmoji.RemoveAt(index);
+            }
 
 
         }
