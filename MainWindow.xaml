@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:MatchGame"
         mc:Ignorable="d"
         Title="Encontre todos os animais correspondentes" Height="450" Width="395">
-    <Grid HorizontalAlignment="Right" Width="395">
+    <Grid x:Name="mainGrid" HorizontalAlignment="Right" Width="395">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
